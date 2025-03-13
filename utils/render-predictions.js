@@ -37,7 +37,7 @@ export const renderPredictions = (predictions, ctx) => {
   });
 };
 
-const playAudio = throttle(() => {
-  const audio = new Audio("/pols-aagyi-pols.mp3");
-  audio.play();
-}, 2000);
+// const playAudio = throttle(() => {
+//   const audio = new Audio("/pols-aagyi-pols.mp3");
+//   audio.play();
+// }, 2000);
